@@ -1,0 +1,258 @@
+/*Added By Thangam*/
+
+/*
+ * Main content
+ */
+
+.main {
+  padding: 20px;
+}
+.main .page-header {
+  margin-top: 0;
+}
+
+.material-switch > input[type="checkbox"] {
+    display: none;   
+}
+
+.material-switch > label {
+    cursor: pointer;
+    height: 0px;
+    position: relative; 
+    width: 40px;  
+}
+.material-switch > label::before {
+    background: rgb(208, 1, 27);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 17px;
+    content: '';
+    height: 24px;
+    margin-top: -7px;
+    position:absolute;
+    opacity: 0.8;
+    transition: all 0.4s ease-in-out;
+    width: 45px;
+}
+.material-switch > label::after {
+    background: rgb(255, 255, 255);
+    border-radius: 12px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    content: '';
+    height: 21px;
+    left: 1px;
+    margin-top: -2px;
+    position: absolute;
+    top: -4px;
+    transition: all 0.3s ease-in-out;
+    width: 24px;
+}
+.material-switch > input[type="checkbox"]:checked + label::before {
+    background: inherit;
+    opacity: 0.8;
+}
+.material-switch > input[type="checkbox"]:checked + label::after {
+    background: inherit;
+    left: 20px;
+}
+input.cmn-toggle-on:checked + label:before {
+  background-color: #10fb37  !important;
+}
+.label-info {
+    background-color: #ffffff !important;
+}
+.label{
+  margin-bottom: 10px!important;
+}
+.panel-heading{
+  color: #f9b42d;
+  font-size:20px;
+  font-family: 'Quicksand', sans-serif;
+   font-weight: 600;
+}
+.wrapper{
+  background: url('../images/home.png') 0px 0px repeat;
+  height: 1235px;
+  width: 100%;
+  overlfow:auto;
+  position: relative;
+}
+.wrapper:after{
+  content: " ";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #b868fe;
+  opacity: 0.75;
+  overflow: auto;
+  width:100%;
+  height:100%;
+}
+.caption{
+  text-align: center;
+  z-index: 15;
+}
+.caption h1{
+  font-size: 32px;
+  /*font-family: Gotham black;*/
+  /*font-family: 'Lato', sans-serif;*/
+  font-family: 'Quicksand', sans-serif;
+   font-weight: 900;
+}
+.caption p{
+  font-size: 18px;
+   /*font-family: Gotham black;*/
+  /*font-family: 'Lato', sans-serif;*/
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 900;
+}
+.tex{
+  font-family: 'Quicksand', sans-serif;
+  font-size:18px;
+}
+.panel {
+  background-color: #fff;
+  border: 0px solid transparent!important;
+  border-radius: 4px;
+  box-shadow: 0 0px 0px rgba(0, 0, 0)!important;
+  margin-bottom: 20px;
+}
+.panel > .list-group .list-group-item {
+  margin-left: 20px !important;
+}
+.list-group-item {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.panel-heading{
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  margin-top: 20px !important;
+}
+.material-switch {
+  margin-top: 12px;
+}
+.img-on-top {
+position:absolute;
+bottom: 0;
+    height: 37px;
+    left: 257px;
+    right: 0;
+    top: 156px;
+    width: 41px;
+    border-radius: 100%;
+}
+.img-on-top2{
+  position:absolute;
+}
+.img-on-top3 {
+  position:absolute;
+  bottom: 0;
+  right: 530px;
+  top: 161px;
+  border-radius: 100%;
+  height: 32px;
+  width: 30px;
+}
+.no-pad{
+  padding: 0px;
+}
+img.home_img {
+    /*max-width: 200%;*/
+    width: 120%;
+    height: auto;
+    opacity: 0.4;
+    display: block;
+}
+#home_plan {
+  position: relative;
+}
+ul li{
+  display:inline-block;
+  list-style-type: none;
+}
+#double_garage{
+  position: absolute;
+  bottom: 0px;
+  left:100px;
+  z-index:15;
+}
+#living_room{
+  position: absolute;
+  top: 390px;
+  right: 145px;
+  z-index: 15;
+}
+#master_suite{
+  position: absolute;
+  bottom: -35px;
+  right: 215px;
+  z-index: 15;
+}
+#bedroom_one{
+  position: absolute;
+  bottom: 280px;
+  left: 183px;
+  z-index: 15;d
+}
+.ac_off{
+  background: url('../images/all_appliances_sprite.png') 0px 0px; 
+  position: relative;
+  bottom: 185px;
+  left: 20px;
+  width: 35px;
+  height: 35px;
+}
+.ac_on{
+  background: url('../images/all_appliances_sprite.png') -40px 0px; 
+  position: relative;
+  bottom: 185px;
+  left: 20px;
+  width: 35px;
+  height: 35px;
+}
+.light_off{
+  background: url('../images/all_appliances_sprite.png') -80px 0px; 
+  position: relative;
+  bottom: 185px;
+  left: 20px;
+  width: 35px;
+  height: 35px;
+}
+.light_on{
+  background: url('../images/all_appliances_sprite.png') -120px 0px; 
+  position: relative;
+  bottom: 185px;
+  left: 20px;
+  width: 35px;
+  height: 35px;
+}
+.fan_off{
+  background: url('../images/all_appliances_sprite.png') -160px 0px; 
+  position: relative;
+  bottom: 185px;
+  left: 25px;
+  width: 35px;
+  height: 35px;
+}
+.fan_on{
+  background: url('../images/all_appliances_sprite.png') -200px 0px; 
+  position: relative;
+  bottom: 185px;
+  left: 25px;
+  width: 35px;
+  height: 35px;
+}
+
+@media(max-width:767px) {
+  .tex {
+    font-family: "Quicksand",sans-serif;
+    font-size: 15px;
+  }
+}
+
+.list-group li img{
+  width: 50px;
+  margin-right: 15px;
+}

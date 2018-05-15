@@ -1,0 +1,45 @@
+Sprite
+
+.sprite { background: url('sprite.gif') no-repeat top left;  } 
+.sprite.appliances_off { background-position: 0 0; width: 159px; height: 47px; } 
+.sprite.appliances_on { background-position: -169px 0; width: 164px; height: 56px; } 
+
+
+<div class='sprite appliances_off'></div>
+<div class='sprite appliances_on'></div>
+
+
+<<<<< sprite_new_35px >>>>
+
+.sprite { background: url('sprite.png') no-repeat top left; width: 35px; height: 35px;  } 
+.sprite.ac_on { background-position: 0 0; } 
+.sprite.ac_on { background-position: -40px 0; } 
+.sprite.light_off { background-position: -80px 0; } 
+.sprite.light_on { background-position: -120px 0; } 
+.sprite.fan_off { background-position: -160px 0; } 
+.sprite.fan_on { background-position: -200px 0; } 
+
+<div class='sprite ac_on'></div>
+<div class='sprite ac_on'></div>
+<div class='sprite light_off'></div>
+<div class='sprite light_on'></div>
+<div class='sprite fan_off'></div>
+<div class='sprite fan_on'></div>
+
+
+====== all =====
+
+.sprite { background: url('sprite.png') no-repeat top left; width: 35px; height: 35px;  } 
+.sprite.ac_off { background-position: 0 0; } 
+.sprite.ac_on { background-position: -40px 0; } 
+.sprite.light_off { background-position: -80px 0; } 
+.sprite.light_on { background-position: -120px 0; } 
+.sprite.fan_off { background-position: -160px 0; } 
+.sprite.fan_on { background-position: -200px 0; } 
+
+<div class='sprite ac_off'></div>
+<div class='sprite ac_on'></div>
+<div class='sprite light_off'></div>
+<div class='sprite light_on'></div>
+<div class='sprite fan_off'></div>
+<div class='sprite fan_on'></div>

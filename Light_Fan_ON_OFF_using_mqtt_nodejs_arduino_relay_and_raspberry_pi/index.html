@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="icon" href="fav.ico"> -->
+    <title>Home Automation</title>
+    <!-- Css -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- <link href="assets/css/font-awesome.min.css" rel="stylesheet"> -->
+    <!--cdn-->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Lato:900" rel="stylesheet">  -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:700" rel="stylesheet">
+</head>
+
+<body>
+    <section>
+        <div class="col-md-12 col-lg-12">
+            <div class="container">
+                <div class="row">
+                    <div class="caption">
+                        <h1>Home Automation</h1>
+                        <p>Security and Home manage products manage household safety, reduce energy consumption</p>
+                    </div>
+                </div><!--row1-->
+            </div>        
+        </div>
+    </section>
+    <section class="ctrl_appliances">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+             <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 no-pad">
+                            <div class="panel">
+                            <!-- Default panel contents -->
+                                <div class="panel-heading">Double Garage</div>
+                                    <!-- List group -->
+                                    <ul class="list-group ctrl_garage">
+                                        <li class="list-group-item">
+                                            <img width="57" height="42" src="assets/images/air-on.jpg" alt="air-on" /><span class="tex">  Air Conditioner </span>
+                                            <div class="material-switch pull-right" data-href="#double_garage" data-options="ac">
+                                                <input id="someSwitchOptionInfo1" class="cmn-toggle cmn-toggle-on" name="someSwitchOption001" type="checkbox" />
+                                                <label for="someSwitchOptionInfo1" class="label-info"></label>
+                                            </div>
+                                        </li>
+                                        <li class="ctrl_garage_light list-group-item">
+                                            <img width="45" height="56" src="assets/images/ligth.jpg" alt="lights" /><span class="tex"> Lights </span>
+                                            <div class="material-switch pull-right" data-href="#double_garage" data-options="light">
+                                                <input id="someSwitchOptionInfo2" class="cmn-toggle cmn-toggle-on" name="someSwitchOption001" type="checkbox" />
+                                                <label for="someSwitchOptionInfo2" class="label-info"></label>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <img width="40" height="40" src="assets/images/fan.jpg" alt="fans" /><span class="tex">  Fans </span>
+                                            <div class="material-switch pull-right" data-href="#double_garage" data-options="fan">
+                                                <input id="someSwitchOptionInfo3" class="cmn-toggle cmn-toggle-on" name="someSwitchOption001" type="checkbox" />
+                                                <label for="someSwitchOptionInfo3" class="label-info"></label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="panel-heading">Living Room</div>
+                                    <!-- List group -->
+                                    <ul class="list-group">
+                                        <li class="list-group-item">
+                                            <img width="60" height="40" src="assets/images/air-on.jpg" alt="air-on" /><span class="tex">  Air Conditioner </span>
+                                            <div class="material-switch pull-right" data-href="#living_room" data-options="ac">                   
+                                            <input id="someSwitchOptionInfo4" class="cmn-toggle cmn-toggle-on" name="someSwitchOption001" type="checkbox" />
+                                                <label for="someSwitchOptionInfo4" class="label-info"></label>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <img width="45" height="56" src="assets/images/ligth.jpg" alt="lights" /><span class="tex">  Lights </span>
+                                            <div class="material-switch pull-right" data-href="#living_room" data-options="light">
+                                                <input id="someSwitchOptionInfo5" class="cmn-toggle cmn-toggle-on livroom_light" name="someSwitchOption001" type="checkbox" />
+                                                <label for="someSwitchOptionInfo5" class="label-info"></label>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <img width="40" height="40" src="assets/images/fan.jpg" alt="fans" /><span class="tex">  Fans </span>
+                                            <div class="material-switch pull-right" data-href="#living_room" data-options="fan">
+                                                <input id="someSwitchOptionInfo6" class="cmn-toggle cmn-toggle-on livroom_fan" name="someSwitchOption001" type="checkbox" />
+                                                <label for="someSwitchOptionInfo6" class="label-info"></label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="panel-heading">Master Suite</div>
+                                    <!-- List group -->
+                                    <ul class="list-group">
+                                        <li class="list-group-item">
+                                            <img width="57" height="42" src="assets/images/air-on.jpg" alt="air-on" /><span class="tex">  Air Conditioner </span>
+                                            <div class="material-switch pull-right" data-href="#master_suite" data-options="ac">
+                                                <input id="someSwitchOptionInfo7" class="cmn-toggle cmn-toggle-on" name="someSwitchOption001" type="checkbox" />
+                                                <label for="someSwitchOptionInfo7" class="label-info"></label>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <img width="45" height="56" src="assets/images/ligth.jpg" alt="lights" /><span class="tex">  Lights </span>
+                                            <div class="material-switch pull-right" data-href="#master_suite" data-options="light">
+                                                <input id="someSwitchOptionInfo8" class="cmn-toggle cmn-toggle-on" name="someSwitchOption001" type="checkbox" />
+                                                <label for="someSwitchOptionInfo8" class="label-info"></label>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <img width="40" height="40" src="assets/images/fan.jpg" alt="fans" /><span class="tex">  Fans </span>
+                                            <div class="material-switch pull-right" data-href="#master_suite" data-options="fan">
+                                                <input id="someSwitchOptionInfo9" class="cmn-toggle cmn-toggle-on" name="someSwitchOption001" type="checkbox" />
+                                                <label for="someSwitchOptionInfo9" class="label-info"></label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="panel-heading">Bed Room 1</div>
+                                    <!-- List group -->
+                                    <ul class="list-group">
+                                        <li class="list-group-item">
+                                            <img width="57" height="42" src="assets/images/air-on.jpg" alt="air-on" /><span class="tex">  Air Conditioner </span>
+                                            <div class="material-switch pull-right" data-href="#bedroom_one" data-options="ac">
+                                                <input id="someSwitchOptionInfo10" class="cmn-toggle cmn-toggle-on" name="someSwitchOption001" type="checkbox" />
+                                                <label for="someSwitchOptionInfo10" class="label-info"></label>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <img width="45" height="56" src="assets/images/ligth.jpg" alt="lights" /><span class="tex">  Lights </span>
+                                            <div class="material-switch pull-right" data-href="#bedroom_one" data-options="light">
+                                                <input id="someSwitchOptionInfo11" class="cmn-toggle cmn-toggle-on" name="someSwitchOption001" type="checkbox" />
+                                                <label for="someSwitchOptionInfo11" class="label-info"></label>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <img width="40" height="40" src="assets/images/fan.jpg" alt="fans" /><span class="tex">  Fans </span>
+                                            <div class="material-switch pull-right" data-href="#bedroom_one" data-options="fan">
+                                                <input id="someSwitchOptionInfo12" class="cmn-toggle cmn-toggle-on" name="someSwitchOption001" type="checkbox" />
+                                                <label for="someSwitchOptionInfo12" class="label-info"></label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                            </div> <!--panel-->
+                        </div> <!--BS or btn_control-->
+                        <!---Image area-->
+                        <div id="home_plan" class="col-xs-3 col-md-8 col-lg-8 hidden-sm hidden-xs no-pad">
+                            
+                            <img src="assets/images/home.png" alt="home" class="home_img center-block">
+                            <!-- <img width="45" class="img-on-top" height="56" src="assets/images/ligth.jpg" alt="lights" />
+                            <img width="57" class="img-on-top2" height="42" src="assets/images/air-on.jpg" alt="air-on" />
+                            <img width="40" class="img-on-top3" height="40" src="assets/images/fan.jpg" alt="fans" /> -->
+                            <div>
+                                <ul id="double_garage">
+                                    <li class="ac_off ac"> </li>
+                                    <li class="light_off light"><li>
+                                    <li class="fan_off fan"> </li>
+                                </ul>
+                                <ul id="living_room">
+                                    <li class="ac_off ac"> </li>
+                                    <li class="light_off light"> <li>
+                                    <li class="fan_off fan"> </li>
+                                </ul>
+                                <ul id="master_suite">
+                                    <li class="ac_off ac"> </li>
+                                    <li class="light_off light"> <li>
+                                    <li class="fan_off fan"> </li>
+                                </ul>
+                                <ul id="bedroom_one">
+                                    <li class="ac_off ac"> </li>
+                                    <li class="light_off light"> <li>
+                                    <li class="fan_off fan"> </li>
+                                </ul>
+                            </div>
+                        </div>    
+                    </div> <!--row2-->
+            </div> <!--container-->
+        </div> <!--bs-->
+    </section>
+  
+</body>
+
+<!-- JAVASCRIPT JS  -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+<script type="text/javascript" src="assets/js/jquery-2.2.3.min.js"></script>
+<script type="text/javascript" src="assets/js/custom.js"></script>
+<script>
+  $(document).ready(function() {
+        // alert("ready");
+        $('.livroom_light').change(function(){
+		val = $(this).is(':checked');
+                if (val) {
+                    //socket.emit('publish', {topic:"ha",payload:"on+livroom_light"});
+		    socket.emit('publish', {topic:"ha",payload:"on+livroom_light"});
+                } else {
+                    //socket.emit('publish', {topic:"ha",payload:"off+livroom_light"});
+		    socket.emit('publish', {topic:"ha",payload:"off+livroom_light"});
+                }
+        });
+	$('.livroom_fan').change(function(){
+		val = $(this).is(':checked');
+                if (val) {
+                    socket.emit('publish', {topic:"ha",payload:"on+livroom_fan"});
+                } else {
+                    socket.emit('publish', {topic:"ha",payload:"off+livroom_fan"});
+                }
+        });
+    });
+</script>
+<script>
+  /*var socket = io.connect('10.0.0.17:5000');
+  socket.on('connect', function () {
+    socket.on('mqtt', function (msg) {
+      console.log(msg.topic+' '+msg.payload);
+      if (msg.payload == "off") {
+        if ($('.livroom_light').is(':checked')) {
+          $('.livroom_light').prop('checked',false).change();
+        }
+      }
+      if (msg.payload == "on") {
+        if (!$('.livroom_light').is(':checked')) {
+          $('.livroom_light').prop('checked',true).change();
+        }
+      }
+    });
+    socket.emit('subscribe',{topic:'ha'});
+  });*/
+
+  var socket = io.connect('10.0.0.16:3001');
+  socket.on('connect', function () {
+    socket.on('mqtt', function (msg) {
+      if (msg.payload.split('+')[0] == "off") {
+        if ($('.'+msg.payload.split('+')[1]).is(':checked')) {
+          $('.'+msg.payload.split('+')[1]).prop('checked',false).change();
+        }
+      }
+      if (msg.payload.split('+')[0] == "on") {
+        if (!$('.'+msg.payload.split('+')[1]).is(':checked')) {
+          $('.'+msg.payload.split('+')[1]).prop('checked',true).change();
+        }
+      }
+    });
+    socket.emit('subscribe',{topic:'ha'});
+  });
+</script>
+</html>
